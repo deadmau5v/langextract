@@ -155,3 +155,8 @@ forbidden_modules = [
   "langextract.prompting",
   "langextract.resolver",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.11",
+]

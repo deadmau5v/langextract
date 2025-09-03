@@ -22,4 +22,5 @@ from __future__ import annotations
 
 # Re-export everything from core.tokenizer for backward compatibility
 # pylint: disable=unused-wildcard-import
+# ruff: noqa: F403, F401
 from langextract.core.tokenizer import *

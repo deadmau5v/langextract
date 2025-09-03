@@ -22,4 +22,4 @@ from __future__ import annotations
 
 # Re-export everything from core.data for backward compatibility
 # pylint: disable=unused-wildcard-import
-from langextract.core.data import *
+from langextract.core.data import *  # noqa: F403
